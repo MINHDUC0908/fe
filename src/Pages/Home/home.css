@@ -1,0 +1,11 @@
+/* home.css */
+.slick-dots {
+    display: none; /* Ẩn mặc định */
+}
+
+/* Hiện thị dấu chấm khi màn hình lớn hơn sm */
+@media (min-width: 640px) { 
+    .slick-dots {
+        display: block; 
+    }
+}
